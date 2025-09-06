@@ -12,16 +12,6 @@ const loadLevelword = (id) => {
 }
 
 
-// "id": 4,
-// "level": 5,
-// "word": "Diligent",
-// "meaning": "পরিশ্রমী",
-// "pronunciation": "ডিলিজেন্ট"
-
-
-
-
- 
 const displayWords = (words) => {
    const wordContainer = document.getElementById("word-container")
    wordContainer.innerHTML = ""
@@ -35,8 +25,8 @@ const displayWords = (words) => {
           <h2 class="text-2xl font-semibold bangla text-[#18181B]">${word.meaning} - ${word.pronunciation}</h2>
 
           <div class="flex justify-between items-center px-5">
-            <button class=" bg-sky-100 hover:bg-slate-300 p-2 rounded-sm"><i class="fa-solid fa-circle-info"></i></button>
-            <button class=" bg-sky-100 hover:bg-slate-300 p-2 rounded-sm "><i class="fa-solid fa-volume-high"></i></button>
+            <button class=" bg-sky-100 hover:bg-slate-300 md:hover:bg-slate-300 p-2 rounded-sm"><i class="fa-solid fa-circle-info"></i></button>
+            <button class=" bg-sky-100 hover:bg-slate-300 md:hover:bg-slate-300 p-2 rounded-sm "><i class="fa-solid fa-volume-high"></i></button>
           </div>
       </div>
     ` 
